@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2b211d;
+  background: #ffffff;
+  line-height: 1.7;
+}
+
+.navbar {
+  background: #4b2a1a;
+  color: white;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 55px;
+}
+
+.name {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 35px;
+  font-size: 1rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  min-height: 620px;
+  background: #f4efe9;
+}
+
+.photo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.photo-box img {
+  width: 100%;
+  max-width: 420px;
+  height: 520px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.18);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px;
+}
+
+.intro h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.intro h2 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin-bottom: 25px;
+  color: #7a4a2b;
+}
+
+.intro p {
+  max-width: 560px;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  width: fit-content;
+  padding: 12px 28px;
+  border: 1px solid #7a4a2b;
+  color: #7a4a2b;
+  text-decoration: none;
+  background: transparent;
+}
+
+.button:hover {
+  background: #7a4a2b;
+  color: white;
+}
+
+.section {
+  padding: 80px 15%;
+  text-align: center;
+}
+
+.section h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.light {
+  background: #f4efe9;
+}
+
+footer {
+  background: #4b2a1a;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-box {
+    padding: 40px 25px 10px;
+  }
+
+  .photo-box img {
+    height: 430px;
+  }
+
+  .intro {
+    padding: 40px 30px 70px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .intro h1 {
+    font-size: 2.8rem;
+  }
+}
