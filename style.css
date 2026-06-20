@@ -352,3 +352,17 @@ body {
     height: 480px;
   }
 }
+
+/* Make CV page font match navigation style */
+
+.cv-site-page,
+.cv-content-card,
+.cv-page-title,
+.cv-section-block,
+.cv-section-block h1,
+.cv-section-block h2,
+.cv-section-block p,
+.cv-course-list,
+.cv-course-list li {
+  font-family: Georgia, "Times New Roman", serif;
+}
