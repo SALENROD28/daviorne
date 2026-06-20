@@ -456,3 +456,40 @@ body {
   margin: 0 auto !important;
   transform: none !important;
 }
+
+/* Match CV page colors to green/white navigation */
+
+.cv-site-page {
+  background: #ffffff;
+}
+
+.cv-content-card {
+  background: #ffffff;
+}
+
+.cv-page-title {
+  background: #24352f;
+  color: #ffffff;
+}
+
+.cv-section-block h1,
+.cv-section-block h2 {
+  color: #24352f;
+}
+
+.cv-section-block p {
+  color: #24201d;
+}
+
+.cv-divider {
+  border-top: 2px solid #24352f;
+}
+
+.cv-section-block a {
+  color: #24352f;
+  font-weight: bold;
+}
+
+.cv-section-block a:hover {
+  color: #6f7f68;
+}
