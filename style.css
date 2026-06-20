@@ -160,3 +160,33 @@ footer {
     font-size: 2.8rem;
   }
 }
+
+/* Updated color palette */
+.navbar,
+footer {
+  background: #24352f;
+}
+
+body {
+  color: #24201d;
+  background: #ffffff;
+}
+
+.hero,
+.light {
+  background: #f6f1e8;
+}
+
+.intro h2 {
+  color: #6f7f68;
+}
+
+.button {
+  border-color: #6f7f68;
+  color: #6f7f68;
+}
+
+.button:hover {
+  background: #6f7f68;
+  color: white;
+}
