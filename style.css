@@ -382,3 +382,52 @@ body {
   transform-origin: top left;
   border: none;
 }
+
+/* Final CV color override: match green and white navigation */
+
+.cv-site-page {
+  background: #ffffff !important;
+}
+
+.cv-content-card {
+  background: #ffffff !important;
+  color: #24201d !important;
+}
+
+.cv-page-title {
+  background: #24352f !important;
+  color: #ffffff !important;
+}
+
+.cv-section-block {
+  background: #ffffff !important;
+}
+
+.cv-section-block h1,
+.cv-section-block h2 {
+  color: #24352f !important;
+}
+
+.cv-section-block p,
+.cv-course-list li {
+  color: #24201d !important;
+}
+
+.cv-divider {
+  border-top: 2px solid #24352f !important;
+}
+
+.cv-section-block a {
+  color: #24352f !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cv-section-block a:hover {
+  color: #6f7f68 !important;
+  text-decoration: underline;
+}
+
+.cv-embed-box {
+  background: #ffffff !important;
+}
