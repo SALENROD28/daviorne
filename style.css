@@ -87,14 +87,14 @@ nav a {
   display: inline-block;
   width: fit-content;
   padding: 12px 28px;
-  border: 1px solid #7a4a2b;
-  color: #7a4a2b;
+  border: 1px solid #6f7f68;
+  color: #6f7f68;
   text-decoration: none;
   background: transparent;
 }
 
 .button:hover {
-  background: #7a4a2b;
+  background: #6f7f68;
   color: white;
 }
 
@@ -116,11 +116,11 @@ nav a {
 }
 
 .light {
-  background: #f4efe9;
+  background: #f6f1e8;
 }
 
 footer {
-  background: #4b2a1a;
+  background: #24352f;
   color: white;
   text-align: center;
   padding: 25px;
