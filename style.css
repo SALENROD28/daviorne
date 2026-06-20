@@ -382,3 +382,37 @@ body {
   transform-origin: top left;
   border: none;
 }
+
+/* Make CV page content smaller and easier to read */
+
+.cv-content-card {
+  max-width: 1180px;
+}
+
+.cv-page-title {
+  font-size: 1.4rem;
+  padding: 18px 22px;
+}
+
+.cv-section-block {
+  padding: 20px 22px;
+}
+
+.cv-section-block h1 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.cv-section-block h2 {
+  font-size: 1rem;
+}
+
+.cv-section-block p {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.cv-course-list li {
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
