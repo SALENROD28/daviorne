@@ -376,8 +376,8 @@ body {
 }
 
 .cv-embed-box iframe {
-  width: 125%;
-  height: 125%;
+  width: 133%;
+  height: 133%;
   transform: scale(0.7);
   transform-origin: top left;
   border: none;
