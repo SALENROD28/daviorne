@@ -435,3 +435,24 @@ body {
   height: 100%;
   border: none;
 }
+
+/* Center embedded CV cleanly */
+
+.cv-embed-box {
+  width: 82% !important;
+  max-width: 980px !important;
+  height: 780px !important;
+  margin: 30px auto 0 !important;
+  background: #222222;
+  overflow: hidden;
+  display: block;
+}
+
+.cv-embed-box iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  display: block !important;
+  margin: 0 auto !important;
+  transform: none !important;
+}
