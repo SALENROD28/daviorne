@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | David Ornelas</title>
-  <link rel="stylesheet" href="style.css?v=22" />
+  <link rel="stylesheet" href="style.css?v=23" />
 </head>
 <body>
 
@@ -31,49 +31,100 @@
     </nav>
   </header>
 
-  <main class="contact-page">
-    <div class="contact-content-card">
+  <main class="contact-layout-page">
 
-      <div class="contact-page-title">
+    <section class="contact-main-card">
+      <div class="contact-page-heading">
         Contact
       </div>
 
-      <section class="contact-section-block">
-        <h1>Get in Touch</h1>
-
+      <div class="contact-main-content">
         <p>
-          I welcome conversations about research, teaching, collaboration,
-          conference presentations, and related academic or professional opportunities.
+          There are two ways to reach me quickly:
         </p>
 
-        <div class="contact-card">
-          <h2>Email</h2>
-          <p>
-            <a href="mailto:dpornelas28@gmail.com">dpornelas28@gmail.com</a>
-          </p>
-        </div>
+        <p>
+          1. by filling out the contact form below;<br>
+          2. via email: <a href="mailto:dpornelas28@gmail.com">dpornelas28@gmail.com</a>
+        </p>
 
-        <div class="contact-card">
-          <h2>Academic & Professional Links</h2>
+        <h1>Disclaimer</h1>
 
-          <ul class="contact-list">
-            <li><a href="#" target="_blank">LinkedIn</a></li>
-            <li><a href="#" target="_blank">Google Scholar</a></li>
-            <li><a href="#" target="_blank">ORCID</a></li>
-          </ul>
-        </div>
+        <p>
+          Unless otherwise stated, the materials and content you find on this site
+          do not reflect the views of my employer, or any brands, persons, or
+          organizations I am affiliated with.
+        </p>
 
-        <div class="contact-card">
-          <h2>Affiliation</h2>
-          <p>
-            PhD Student<br>
-            Texas Tech University<br>
-            Department of English
-          </p>
-        </div>
-      </section>
+        <p>
+          All copyrights and ownership shall be well respected. Any unauthorized
+          reproduction of artwork, writing, or other materials may be subject to
+          applicable copyright policies and laws.
+        </p>
 
-    </div>
+        <p>
+          I reserve the right to moderate any messages or comments submitted through
+          this site.
+        </p>
+
+        <p>
+          All content on this site is copyrighted to © David Ornelas. All rights reserved.
+        </p>
+
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label for="name">Name <span>(required)</span></label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email <span>(required)</span></label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="website">Website</label>
+          <input type="url" id="website" name="website">
+
+          <label for="message">Comment <span>(required)</span></label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <aside class="contact-sidebar">
+
+      <div class="contact-side-card">
+        <h2>Hours & Contact</h2>
+
+        <p>
+          Department of English<br>
+          Technical Communication & Rhetoric<br>
+          Texas Tech University
+        </p>
+
+        <p>
+          <a href="mailto:dpornelas28@gmail.com">dpornelas28@gmail.com</a>
+        </p>
+
+        <p class="muted">
+          Office: Add office location here<br>
+          Meeting by appointment
+        </p>
+      </div>
+
+      <div class="contact-side-card">
+        <h2>Follow This Site</h2>
+
+        <p class="muted">
+          Enter your email address to receive updates or announcements.
+        </p>
+
+        <form class="follow-form">
+          <input type="email" placeholder="Email Address">
+          <button type="button">Follow</button>
+        </form>
+      </div>
+
+    </aside>
+
   </main>
 
   <footer>
