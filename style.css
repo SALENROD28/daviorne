@@ -536,3 +536,76 @@ nav a {
   object-position: center !important;
   display: block;
 }
+
+/* Teaching page */
+
+.teaching-page {
+  background: #ffffff;
+  padding: 14px 0 45px;
+  min-height: 100vh;
+}
+
+.teaching-content-card {
+  background: #ffffff;
+  max-width: 1120px;
+  margin: 0 auto;
+  color: #24201d;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.teaching-page-title {
+  background: #24352f;
+  color: #ffffff;
+  font-size: 1.7rem;
+  padding: 24px 22px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.teaching-section-block {
+  padding: 28px 22px;
+  text-align: left;
+}
+
+.teaching-section-block h1 {
+  font-size: 1.8rem;
+  color: #24352f;
+  margin-bottom: 18px;
+}
+
+.teaching-section-block p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
+
+.teaching-divider {
+  border: none;
+  border-top: 2px solid #24352f;
+  margin: 0 22px;
+}
+
+.teaching-list {
+  list-style-type: square;
+  margin-left: 24px;
+  padding-left: 14px;
+}
+
+.teaching-list li {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 850px) {
+  .teaching-content-card {
+    width: 100%;
+  }
+
+  .teaching-page-title {
+    font-size: 1.5rem;
+  }
+
+  .teaching-section-block {
+    padding: 24px 18px;
+  }
+}
