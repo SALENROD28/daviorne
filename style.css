@@ -516,3 +516,23 @@ nav a {
   background: #ffffff;
   display: block;
 }
+
+/* Make homepage photo strip closer together */
+
+.photo-strip {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 32px 20px 24px;
+  background: #ffffff;
+}
+
+.photo-strip img {
+  width: 100% !important;
+  height: 560px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block;
+}
