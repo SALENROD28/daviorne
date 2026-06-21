@@ -609,3 +609,53 @@ nav a {
     padding: 24px 18px;
   }
 }
+
+/* Teaching dropdown menu */
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropbtn {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 0.95rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 18px;
+  background: #ffffff;
+  min-width: 210px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #24352f;
+  padding: 12px 16px;
+  text-decoration: none;
+  margin-left: 0;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  background: #f6f1e8;
+  color: #24352f;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  display: block;
+}
