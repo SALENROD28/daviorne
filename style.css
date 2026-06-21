@@ -496,3 +496,23 @@ nav a {
   object-position: center !important;
   display: block;
 }
+
+/* Make homepage photo strip the same height */
+
+.photo-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  padding: 32px 30px 24px;
+  background: #ffffff;
+  align-items: stretch;
+}
+
+.photo-strip img {
+  width: 100% !important;
+  height: 580px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  background: #ffffff;
+  display: block;
+}
