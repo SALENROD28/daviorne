@@ -461,9 +461,10 @@ nav a {
 .photo-strip img {
   width: 100%;
   height: 455px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   display: block;
+  background: #ffffff;
 }
 
 @media (max-width: 850px) {
