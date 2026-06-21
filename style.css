@@ -477,3 +477,22 @@ nav a {
     height: 360px;
   }
 }
+
+/* Final photo strip fix: show full images */
+
+.photo-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  padding: 32px 30px 24px;
+  background: #ffffff;
+  align-items: start;
+}
+
+.photo-strip img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: unset !important;
+  object-position: center !important;
+  display: block;
+}
