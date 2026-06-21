@@ -659,3 +659,92 @@ nav {
 .dropdown:focus-within .dropdown-content {
   display: block;
 }
+
+/* Contact page */
+
+.contact-page {
+  background: #ffffff;
+  padding: 14px 0 45px;
+  min-height: 100vh;
+}
+
+.contact-content-card {
+  background: #ffffff;
+  max-width: 1120px;
+  margin: 0 auto;
+  color: #24201d;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contact-page-title {
+  background: #24352f;
+  color: #ffffff;
+  font-size: 1.7rem;
+  padding: 24px 22px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contact-section-block {
+  padding: 32px 22px;
+  text-align: left;
+}
+
+.contact-section-block h1 {
+  font-size: 1.9rem;
+  color: #24352f;
+  margin-bottom: 18px;
+}
+
+.contact-section-block p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.contact-card {
+  border-top: 2px solid #24352f;
+  padding-top: 22px;
+  margin-top: 28px;
+}
+
+.contact-card h2 {
+  font-size: 1.3rem;
+  color: #24352f;
+  margin-bottom: 10px;
+}
+
+.contact-card a {
+  color: #24352f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  color: #6f7f68;
+  text-decoration: underline;
+}
+
+.contact-list {
+  list-style-type: square;
+  margin-left: 24px;
+  padding-left: 14px;
+}
+
+.contact-list li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .contact-content-card {
+    width: 100%;
+  }
+
+  .contact-page-title {
+    font-size: 1.5rem;
+  }
+
+  .contact-section-block {
+    padding: 24px 18px;
+  }
+}
