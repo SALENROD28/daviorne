@@ -431,3 +431,19 @@ body {
 .cv-embed-box {
   background: #ffffff !important;
 }
+
+/* Shorten navigation bar spacing */
+
+.navbar {
+  padding: 0 35px;
+}
+
+.name {
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+}
+
+nav a {
+  margin-left: 24px;
+  font-size: 0.95rem;
+}
