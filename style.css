@@ -748,3 +748,165 @@ nav {
     padding: 24px 18px;
   }
 }
+
+/* Contact page layout inspired by two-column academic site */
+
+.contact-layout-page {
+  background: #f6f1e8;
+  display: grid;
+  grid-template-columns: 2fr 0.9fr;
+  gap: 34px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 34px 28px 60px;
+}
+
+.contact-main-card,
+.contact-side-card {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.contact-page-heading {
+  background: #24352f;
+  color: #ffffff;
+  font-size: 1.7rem;
+  padding: 22px 24px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contact-main-content {
+  padding: 28px 24px 38px;
+}
+
+.contact-main-content h1 {
+  color: #24352f;
+  font-size: 1.9rem;
+  margin: 28px 0 18px;
+}
+
+.contact-main-content p {
+  color: #24201d;
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.contact-main-content a,
+.contact-side-card a {
+  color: #24352f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-main-content a:hover,
+.contact-side-card a:hover {
+  color: #6f7f68;
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form label {
+  display: block;
+  color: #24352f;
+  font-weight: bold;
+  margin: 14px 0 6px;
+}
+
+.contact-form label span {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: none;
+  background: #f6f1e8;
+  padding: 13px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  min-height: 210px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 22px;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #24352f;
+  background: #ffffff;
+  color: #24352f;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #24352f;
+  color: #ffffff;
+}
+
+.contact-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.contact-side-card {
+  padding: 28px 24px;
+}
+
+.contact-side-card h2 {
+  color: #24352f;
+  font-size: 1.7rem;
+  margin-bottom: 18px;
+}
+
+.contact-side-card p {
+  color: #24201d;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.contact-side-card .muted {
+  color: #6f7f68;
+}
+
+.follow-form input {
+  width: 100%;
+  border: none;
+  background: #f6f1e8;
+  padding: 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 18px;
+}
+
+.follow-form button {
+  background: #24352f;
+  color: #ffffff;
+  border: none;
+  padding: 13px 24px;
+  border-radius: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.follow-form button:hover {
+  background: #6f7f68;
+}
+
+@media (max-width: 900px) {
+  .contact-layout-page {
+    grid-template-columns: 1fr;
+    padding: 24px 18px 45px;
+  }
+}
